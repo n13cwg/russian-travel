@@ -1,8 +1,8 @@
-.header {
+.header__lang {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 92.5%;
-    height: 52px;
-    margin: 28px auto;
+    list-style: none;
+    padding: 0;
+    margin: 0;
 }

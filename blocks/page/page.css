@@ -1,10 +1,15 @@
 * {
     outline: 1px solid red;
-    background: #2A2C2F;
     color: white;
 }
 
 .page {
     max-width: 1280px;
     margin: 0 auto;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #2A2C2F;
 }
