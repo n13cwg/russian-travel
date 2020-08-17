@@ -1,0 +1,6 @@
+.place {
+    max-width: 984px;
+    display: grid;
+    grid-template-columns: 2 1fr;
+    grid-template-rows: 2 1fr;
+}
