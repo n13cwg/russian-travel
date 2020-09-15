@@ -1,1 +1,14 @@
-.cover {}
+.cover {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    position: relative;
+    /* display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center; */
+    margin: 92px auto 0;
+    max-width: 1184px;
+    height: 740px;
+    background-image: url(../../images/baikal-background.png);
+}

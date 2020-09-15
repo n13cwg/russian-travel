@@ -1,4 +1,10 @@
 .places {
+    margin: 92px auto 0;
     max-width: 984px;
-    display: grid;
+    display: flex;
+    flex-direction: column;
+}
+
+.places :first-child {
+    margin-top: 0;
 }

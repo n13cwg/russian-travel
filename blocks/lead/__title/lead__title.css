@@ -1,5 +1,5 @@
 .lead__title {
-    width: 56.25%;
+    max-width: 56.25%;
     margin: 0;
     font-family: Inter;
     font-style: normal;
@@ -7,4 +7,6 @@
     font-size: 96px;
     line-height: 100px;
     text-align: center;
+    color: #FFFFFF;
+    justify-self: center;
 }
