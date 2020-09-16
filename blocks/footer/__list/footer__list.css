@@ -2,6 +2,7 @@
     display: grid;
     grid-template-rows: 1fr;
     grid-template-columns: repeat(5, max-content);
+    grid-auto-flow: column;
     align-self: center;
     gap: 18px;
     list-style: none;
