@@ -5,3 +5,11 @@
     grid-row: 1fr;
     justify-self: center;
 }
+
+@media screen and (max-width: 320px) {
+    .lead__image {}
+}
+
+@media screen and (max-width: 768px) {
+    .lead__image {}
+}
