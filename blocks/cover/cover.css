@@ -5,7 +5,9 @@
     justify-content: center;
     align-items: center;
     margin: 92px auto 0;
-    max-width: 1184px;
+    width: 1184px;
     height: 740px;
     background-image: url(../../images/baikal-background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }

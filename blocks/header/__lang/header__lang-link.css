@@ -11,6 +11,7 @@
     margin: 0;
 }
 
-.header__lang-link:nth-child(1n) {
+
+/* .header__lang-link:nth-child(1n) {
     margin-right: 18px;
-}
+} */

@@ -1,7 +1,7 @@
 .footer__list {
     display: grid;
     grid-template-rows: 1fr;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(5, max-content);
     align-self: center;
     gap: 18px;
     list-style: none;

@@ -1,7 +1,9 @@
 .header__lang {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: repeat(2, max-content);
+    align-self: center;
+    gap: 18px;
     list-style: none;
     padding: 0;
     margin: 0;
