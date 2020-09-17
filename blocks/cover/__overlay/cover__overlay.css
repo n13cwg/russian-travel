@@ -10,6 +10,7 @@
     background-image: url(../../../images/baikal-background.png);
     background-repeat: no-repeat;
     background-size: contain;
+    background-position: center center;
 }
 
 .cover__overlay::before {
