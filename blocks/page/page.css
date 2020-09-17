@@ -6,9 +6,9 @@
     background: #2A2C2F;
     max-width: 1280px;
     margin: auto;
-    display: flex;
+    /* display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: center; */
     font-family: Inter;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
