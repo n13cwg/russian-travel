@@ -7,9 +7,9 @@
     max-width: 1280px;
     margin: 0 auto;
     padding: 28px 24px;
-    /* display: flex;
+    display: flex;
     flex-direction: column;
-    justify-content: center; */
+    justify-content: center;
     font-family: Inter;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;

@@ -1,4 +1,4 @@
-.cover {
+/* .cover {
     position: relative;
     display: flex;
     flex-direction: column;
@@ -7,4 +7,26 @@
     margin: 92px auto 0;
     width: 92.5%;
     height: 740px;
+} */
+
+.cover {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 92px auto 0;
+    max-width: 1184px;
+    width: 100%;
+    min-height: 740px;
+    text-decoration: none;
+    background-image: url(../../images/baikal-background.png);
+    background-size: cover;
+    background-position: center;
+    transition: 0.5s ease-in-out;
+}
+
+.cover:hover {
+    opacity: 0.3;
+    z-index: 0;
 }
