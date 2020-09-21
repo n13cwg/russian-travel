@@ -5,17 +5,14 @@
     height: 52px;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 425px) {
     .header__logo {
-        max-width: 142px;
-        height: 42px;
+        height: calc(100% - 5px);
     }
 }
 
-@media screen and (max-width: 768px) {
-    .header__logo {}
-}
-
-@media screen and (max-width: 1024px) {
-    .header__logo {}
+@media screen and (max-width: 320px) {
+    .header__logo {
+        height: calc(100% - 10px);
+    }
 }
