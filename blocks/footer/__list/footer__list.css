@@ -9,7 +9,7 @@
     padding: 0;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 768px) {
     .footer__list {
         grid-template-columns: 1fr;
         grid-template-rows: repeat(5, max-content);
