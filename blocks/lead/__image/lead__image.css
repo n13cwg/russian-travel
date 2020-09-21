@@ -1,8 +1,8 @@
 .lead__image {
     max-width: 100%;
     max-height: 615px;
-    display: grid;
-    grid-row: 1fr;
+    /* display: grid;
+    grid-row: 1fr; */
     justify-self: center;
 }
 
