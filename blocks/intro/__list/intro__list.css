@@ -9,3 +9,20 @@
     line-height: 18px;
     color: #FFFFFF;
 }
+
+
+/* @media screen and (max-width: 1024px) {
+    .intro__list {}
+}
+
+@media screen and (max-width: 768px) {
+    .intro__list {}
+}
+
+@media screen and (max-width: 425px) {
+    .intro__list {}
+}
+
+@media screen and (max-width: 320px) {
+    .intro__list {}
+} */
