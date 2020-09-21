@@ -4,10 +4,32 @@
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
-    line-height: 163%;
+    line-height: 29px;
     color: #FFFFFF;
 }
 
 .place__text:last-child {
     margin-top: 24px;
 }
+
+
+/* @media screen and (max-width: 1024px) {
+    .place__text {}
+} */
+
+@media screen and (max-width: 768px) {
+    .place__text {
+        font-size: 16px;
+        line-height: 26px;
+    }
+}
+
+
+/*
+@media screen and (max-width: 425px) {
+    .place__text {}
+}
+
+@media screen and (max-width: 320px) {
+    .place__text {}
+} */

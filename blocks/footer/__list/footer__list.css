@@ -8,3 +8,17 @@
     list-style: none;
     padding: 0;
 }
+
+@media screen and (max-width: 425px) {
+    .footer__list {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(5, max-content);
+        align-self: start;
+        gap: 32px;
+    }
+}
+
+
+/* @media screen and (max-width: 320px) {
+    .footer__list {}
+} */

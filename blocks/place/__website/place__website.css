@@ -3,3 +3,19 @@
     flex-direction: column;
     justify-content: flex-end;
 }
+
+@media screen and (max-width: 1024px) {
+    .place__website {}
+}
+
+@media screen and (max-width: 768px) {
+    .place__website {}
+}
+
+@media screen and (max-width: 425px) {
+    .place__website {}
+}
+
+@media screen and (max-width: 320px) {
+    .place__website {}
+}
