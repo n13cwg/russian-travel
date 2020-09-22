@@ -11,10 +11,17 @@
     justify-self: center;
 }
 
+@media screen and (max-width: 840px) {
+    .lead__title {
+        font-size: 90px;
+        line-height: 94px;
+    }
+}
+
 @media screen and (max-width: 768px) {
     .lead__title {
-        font-size: 96px;
-        line-height: 100px;
+        font-size: 86px;
+        line-height: 90px;
     }
 }
 

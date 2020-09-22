@@ -1,6 +1,6 @@
 .places {
-    margin: 92px 148px 0;
-    max-width: 76.8%;
+    margin: 0 12%;
+    max-width: 76%;
     display: grid;
     grid-template-columns: 1fr;
 }
