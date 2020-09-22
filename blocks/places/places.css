@@ -1,8 +1,12 @@
 .places {
     margin: 0 12%;
     max-width: 76%;
-    display: grid;
-    grid-template-columns: 1fr;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* display: grid;
+    grid-template-columns: 1fr; */
 }
 
 .places :first-child {
