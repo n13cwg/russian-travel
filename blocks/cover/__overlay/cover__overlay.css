@@ -1,30 +1,3 @@
-/* .cover__overlay {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    margin: 0 auto;
-    color: #fff;
-    text-decoration: none;
-    background-color: rgba(42, 44, 47, 0.3);
-    cursor: pointer;
-    background-image: url(../../../images/baikal-background.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center center;
-}
-
-.cover__overlay::before {
-    display: block;
-    position: absolute;
-    padding-top: 50%;
-    content: '';
-    top: 0;
-    right: 0;
-    left: 0;
-    bottom: 0;
-    transition: 0.5s ease-in-out;
-} */
-
 .cover__overlay {
     position: absolute;
     width: 100%;
@@ -35,10 +8,5 @@
     top: 0;
     left: 0;
     z-index: 0;
+    background-image: url(../../../images/baikal-background.png);
 }
-
-
-/* .cover__overlay:hover::before {
-    background-color: rgba(42, 44, 47, 0.8);
-    z-index: 0;
-} */
