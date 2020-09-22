@@ -8,6 +8,5 @@
     letter-spacing: 0.15em;
     text-transform: uppercase;
     color: #FFFFFF;
-    display: grid;
-    justify-self: start;
+    align-self: start;
 }
