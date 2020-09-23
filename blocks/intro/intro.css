@@ -3,19 +3,23 @@
     grid-template-columns: 1fr;
     justify-self: center;
     margin-top: 92px;
-    /* margin-left: 12%; */
-    max-width: 53.9%;
-    /* align-self: start; */
+    margin-left: 12%;
+    margin-right: auto;
+    /* max-width: 53.9%; */
+    max-width: 690px;
+    align-self: start;
 }
 
 @media screen and (max-width: 1024px) {
     .intro {
-        margin-left: 48px;
+        max-width: 690px;
+        margin: 92px auto;
     }
 }
 
 @media screen and (max-width: 768px) {
     .intro {
+        max-width: 100%;
         margin: 88px 24px;
     }
 }
@@ -23,11 +27,18 @@
 
 /*
 @media screen and (max-width: 425px) {
-    .intro {}
+  .intro {}
 } */
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 500px) {
     .intro {
+        max-width: 100%;
         margin: 64px 16px;
     }
 }
+
+
+/* @media screen and (max-width: 320px) {
+  .intro {
+      width: 288px;}
+} */
