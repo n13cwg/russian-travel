@@ -11,3 +11,25 @@
     text-align: center;
     color: #FFFFFF;
 }
+
+@media screen and (max-width: 596px) {
+    .cover__title {
+        font-size: 50px;
+        line-height: 55px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .cover__title {
+        font-size: 42px;
+        line-height: 45px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .cover__title {
+        max-width: 288px;
+        font-size: 32px;
+        line-height: 35px;
+    }
+}

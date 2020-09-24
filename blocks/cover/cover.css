@@ -4,8 +4,27 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 92px auto 0;
+    margin: 92px 48px;
     width: 92%;
-    min-height: 740px;
+    max-height: 740px;
     text-decoration: none;
+}
+
+@media screen and (max-width: 1024px) {
+    .cover {
+        width: 100%;
+        margin: 92px 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .cover {
+        margin: 88px 0;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .cover {
+        margin: 64px 0;
+    }
 }

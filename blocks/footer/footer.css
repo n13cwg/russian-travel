@@ -4,7 +4,7 @@
     justify-content: space-between;
     width: 92.5%;
     max-height: 18px;
-    margin: 92px auto 0;
+    margin: 0 auto;
     padding: 0;
 }
 
@@ -13,7 +13,7 @@
         flex-direction: column;
         justify-content: flex-start;
         max-height: 310px;
-        margin: 64px 16px 0;
+        margin: 0 16px;
     }
 }
 
