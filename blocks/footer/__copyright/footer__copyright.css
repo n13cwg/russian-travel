@@ -9,7 +9,7 @@
     color: #FFFFFF;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 758px) {
     .footer__copyright {
         text-align: left;
         margin-top: 48px;

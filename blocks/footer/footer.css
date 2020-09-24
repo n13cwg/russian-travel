@@ -8,7 +8,7 @@
     padding: 0;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 758px) {
     .footer {
         flex-direction: column;
         justify-content: flex-start;
