@@ -1,12 +1,8 @@
 .intro {
     display: flex;
     flex-direction: column;
-    /* grid-template-columns: 984px; */
     justify-self: center;
     margin: 92px auto 0;
-    /* margin-left: 12%;
-    margin-right: auto; */
-    /* max-width: 53.9%; */
     width: 984px;
     align-self: start;
 }
@@ -27,7 +23,6 @@
 
 @media screen and (max-width: 500px) {
     .intro {
-        /* max-width: 100%; */
         margin: 64px 0;
     }
 }

@@ -2,26 +2,3 @@
     width: 100%;
     height: auto;
 }
-
-
-/*
-@media (min-width: 768px) and (max-width: 1023px) {
-    .photo-grid__item {
-        max-width: 352px;
-        max-height: 264px;
-    }
-}
-
-@media (max-width: 767px) {
-    .photo-grid__item {
-        max-width: 288px;
-        max-height: 216px;
-    }
-}
-
-@media (min-width: 1024px) and (max-width: 1079px) {
-    .photo-grid__item {
-        max-width: 300px;
-        max-height: 225px;
-    }
-} */
