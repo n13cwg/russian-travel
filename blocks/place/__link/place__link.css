@@ -1,7 +1,7 @@
 .place__link {
     font-family: Inter, Arial, Tahoma;
     font-style: normal;
-    font-weight: 400;
+    font-weight: normal;
     font-size: 18px;
     line-height: 22px;
     text-decoration-line: underline;
@@ -12,6 +12,8 @@
     opacity: 0.8;
 }
 
+
+/*
 @media screen and (max-width: 425px) {
     .place__link {
         display: none;
@@ -22,4 +24,4 @@
     .place__link {
         display: none;
     }
-}
+} */

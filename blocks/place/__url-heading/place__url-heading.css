@@ -8,6 +8,8 @@
     color: #AAAAAA;
 }
 
+
+/*
 @media screen and (max-width: 425px) {
     .place__url-heading {
         display: none;
@@ -18,4 +20,4 @@
     .place__url-heading {
         display: none;
     }
-}
+} */
