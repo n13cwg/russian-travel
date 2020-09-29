@@ -15,6 +15,10 @@
     margin: 0 auto;
     padding: 28px 0 24px;
     font-family: Inter, Arial, Tahoma;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
 }
 
 @media screen and (max-width: 425px) {
