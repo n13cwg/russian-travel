@@ -11,12 +11,9 @@
     text-rendering: optimizeLegibility;
     background: #2A2C2F;
     width: 100%;
+    min-width: 320px;
     margin: 0 auto;
     padding: 28px 0 24px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     font-family: Inter, Arial, Tahoma;
 }
 
