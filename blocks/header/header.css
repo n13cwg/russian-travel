@@ -3,5 +3,27 @@
     align-items: center;
     justify-content: space-between;
     max-width: 1184px;
-    margin: 0 auto 28px;
+    margin: 0 auto 61px;
+}
+
+@media screen and (max-width: 1024px) {
+    .header {
+        max-width: 928px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .header {
+        max-width: 720px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .header {
+        max-width: 288px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .header {}
 }
