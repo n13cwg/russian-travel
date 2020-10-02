@@ -12,15 +12,17 @@
 
 /* Для переноса изображений на следующую строку в photo-grid можно использовать ключевые слова auto-fit и minmax: https://medium.com/@stasonmars/%D0%BA%D0%B0%D0%BA-%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B0%D1%8E%D1%82-auto-fill-%D0%B8-auto-fit-%D0%B2-css-grid-7d903a6c678e */
 
+
+/*
 @media screen and (max-width: 1279px) {
     .photo-grid {
         width: calc(100% - 2*48px);
     }
-}
+} */
 
 @media screen and (max-width: 1024px) {
     .photo-grid {
-        /* width: calc(100% - 2*48px); */
+        width: calc(100% - 2*48px);
         gap: 16px;
         grid-template-columns: repeat(3, 1fr);
     }
